@@ -1,0 +1,208 @@
+/*.navbar{
+	font-color:red;
+}*/
+.bdy{
+	background-image:url("https://www.marj3.com/wp-content/uploads/2019/04/5-photography.jpg");
+	background-size:cover;
+	background-position:center;
+	background-repeat: no-repeat;
+}
+.me{
+	font-size: 20px;
+	font-weight:500;
+	padding-top: 0.1rem;
+	color:white;
+	font-family: 'Acme', sans-serif;
+
+}
+
+.navbar-brand
+{
+  font-family: 'Lato', sans-serif;
+  color:grey;
+  font-size: 50px;
+  margin: 0px;
+}
+
+.wi{
+	/*font-family:'Acme', sans-serif;*/
+	font-family: 'Slabo 27px', serif;
+
+
+	font-size:4em;
+  padding-top:10%;
+  padding-left:33%;
+  text-align:center;
+  color:white;
+  text-shadow: 1px 4px 3px rgba(255,255,255,0.5),
+  			   1px 8px 13px rgba(0,0,0,0.8),
+  			   1px 8px 13px rgba(0,0,0,0.8);
+  animation: mymoves 2s 1;
+
+	
+}
+@keyframes mymoves{
+	70%{font-size: 80px}
+}
+hr{
+	width: 600px;
+	border-top:2px solid;
+	border-bottom:1px solid rgba(0,0,0,0.5);
+	font-weight:700;
+}
+h1{
+	font-weight: 1000;
+	font-size: 1.3em;
+
+}
+.ser{
+	background-color: blue;
+
+}
+#jmb{
+
+	background: rgba(0,0,0,0.3);
+	padding-right:400px;
+	padding-top: 20%;
+}
+/*.dis{
+	text-align: center;
+	color:white;
+	padding-top:2%;
+	padding-bottom: 5%;
+	border:1px solid;
+	background: rgba(0,0,0,0.2);
+	border-color: black;
+	border-radius: 12px;
+
+}*/
+body{
+	background-color: white;
+}
+.last{
+	padding-top: 10%;
+	text-align: center;
+	color:white;
+	border-left:2px;
+
+}
+.stuff{
+	margin-top:100px;
+	text-align: center;
+	font-size: 4em;
+	margin-bottom: 50px;
+
+}
+.fas{
+	size: 2em;
+}
+.mg
+{
+	margin-top: 60px;
+}
+.fis{
+	font-family: 'Play', sans-serif;
+	margin-top:100px;
+
+	
+
+}
+.more{
+	padding-left: 500px;
+	padding-top:50px;
+	font-size: 1.5em;
+	padding-bottom: 100px;
+
+}
+.about{
+	text-align: center;
+	
+	font-family: 'Caveat', cursive;
+	font-size: 1.5em;
+	font-weight:700; 
+}
+.abt{
+	/*background-color: #D3D3D3;
+	animation: abtt 2s infinite;*/
+	background-image: url("https://ak7.picdn.net/shutterstock/videos/24475577/thumb/1.jpg");
+	background-size:cover;
+	background-position: center;
+	padding-top: 50px;
+	padding-bottom:50px;
+
+	
+
+}
+@keyframes abtt{
+	50% {background-color: pink;}
+}
+
+.con{
+	box-sizing: border-box;
+	width:90%;
+	padding:10px;
+	margin-top:50px;
+	margin-bottom:100px;
+	display:flex;
+	background-color: #ddd;
+
+}
+.box{
+	height:400px;
+	padding: 20px;
+	
+	background-size: cover;
+	background-position: center;
+	border:3px solid #ddd;
+	font-size:30px;
+	flex:1;
+	transition: 1s;
+}
+.box:hover{
+	flex:3;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 95%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 50px;
+  padding: 40px;
+  text-align: center;
+  font-family: 'Caveat', cursive;
+}
+.att:hover .overlay {
+  opacity: 1;
+}
+#btn1{
+	border-radius:12px;
+	width:200px;
+	height:100px;
+}
+#cen{
+	text-align: center;
+	padding-left:60px;
+	font-size: 1.1em;
+}
+#fnt{
+	font-weight: 600;
+}
+.fis img{
+	transition: 0.3s;
+}
+.fis img:hover{
+	/*filter:grayscale(100%);*/
+	transform:scale(1.13,1.15);
+	box-shadow: 5px 5px 5px #888888;
+}
+.product{
+	height:100px;
+	width:100%;
+	background-color: gray;
+}

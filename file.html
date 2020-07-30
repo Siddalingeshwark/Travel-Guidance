@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>forms</title>
+</head>
+<body>
+	<h2>user information:</h2>
+
+<form action="http://www.google.com">
+	<label for="name">username:</label>
+	<input id="name" type="text" name="name" placeholder="username" required>
+	<label for="password">password:</label>
+	<input id="password" type="password" name="password" placeholder="password" required>
+	
+	<p>enteer your gender</p>
+	<label for="male">male:</label>
+	<input id="male" type="radio" name="gender" value="male">
+	<label for="female">female:</label>
+	<input id="female" type="radio" name="gender" value="female">
+	<label for="others">others:</label>
+	<input id="others" type="radio" name="gender" value="others">
+	<p>enter your state</p>
+	<select name="state">
+		<option>karnataka</option>
+		<option>tamilnad</option>
+		<option>dheli</option>
+	</select>
+	<select name="taluk">
+		<option>chikodi</option>
+		<option>hukkeri</option>
+		<option>nippani</option>
+	</select><br>
+	<p>enter about yourself</p>
+	<textarea name="about" rows="10" cols="30"></textarea>
+	<button>submit</button>
+
+</form>
+</body>
+</html>

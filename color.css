@@ -1,0 +1,21 @@
+body{
+	background-color: black;
+}
+h1{
+	color:white;
+	text-align: center;
+}
+.color{
+	width:30%;
+	background-color:white;
+	padding-bottom: 20%;
+	float:left;
+	margin:10px;
+}
+#container{
+	width:70%;
+	margin:0 auto;
+}
+#msg{
+	color:white;
+}

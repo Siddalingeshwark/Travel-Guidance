@@ -1,0 +1,42 @@
+input{
+	width:60%;
+	padding:10px;
+	border-radius: 7px;
+	margin: 20px 0;
+	cursor:pointer;
+}
+.log{
+	padding-top:100px;
+	padding-bottom: 50px;
+	background-color:rgba(128,128,128,0.2);
+	border-radius:10px;
+	padding-left:250px;
+	
+}
+input[type=submit]{
+	width:20%;
+	position: center;
+	background-color: green;
+
+}
+#lb{
+	margin-bottom: 10px;
+}
+#inp{
+	margin-bottom: 40px;
+}
+.txt{
+	padding-left: 200px;
+	padding-bottom: 40px;
+}
+#ad{
+	text-align: center;
+	padding-bottom: 30px;
+}
+body{
+	background-image: url("https://www.pam-cloud.com/images/headers/login_309163937.jpg");
+}
+/*.bd{
+	border:5px solid red;
+	border-left: 500px;
+}*/

@@ -1,0 +1,27 @@
+.abt{
+	text-align: center;
+	font-family: 'Slabo 27px', serif;
+	font-weight: 800;
+	/*color:white;*/
+	
+}
+body{
+	background-image: url("https://cdn.wallpapersafari.com/60/71/ke7dDw.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+.info{
+	font-family: 'Slabo 27px', serif;
+	font-size: 1.7em;
+	font-weight: 400;
+	/*color:white;*/
+	
+}
+.imge{
+	margin-left: 150px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+
+}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d49bdd984d.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="log.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="log">
+      <h1><i class="fas fa-user"></i> User informaion</h1>
+      <form action="insert.php" method="POST">
+        <label for="username">Firstname:</label>
+        <input id="username" type="text" name="first"  placeholder="First name" required></br>
+        <label for='user'>Lastname:</label>
+        <input id="user" type="text" name="last"  placeholder="Last name" required>
+
+        <p>Enter your gender</p>
+        <label for="male">Male</label>
+        <input id="male" type="radio"  name="gender" value="m">
+        <label for="fem">Female</label>
+        <input id="fem" type="radio"  name="gender" value="f">
+         <label for="oth">Others</label>
+        <input id="oth" type="radio"  name="gender" value="o"></br>
+        </br>
+        <label for="email">Emali:</label>
+        <input  id="email" type="email"  name="email" placeholder="email" required>
+        <p>Select your state</p>
+        <select id="st" name="state">
+          <option value="1">karnataka</option>
+          <option value="2">maharastra</option>
+          <option value="3">tamilnad</option>
+          <option value="4">telangana</option>
+          <option value="5">odissa</option>
+          <option value="6">MP</option>
+          <option value="7">delhi</option>
+          <option value="8">Gujrat</option>
+        </select></br>
+      </br>
+
+        <label for="check">I agree the terms and conditions:</label> 
+        <input type="checkbox" name="checkbox" id="check" reqired></br>
+        </br>
+        <input type="submit">
+
+      </form>
+    </div>
+  </body>
+</html>
